@@ -17,7 +17,7 @@ public class Asignatura {
     }
 
     public void calificar(float nota){
-        //TODO:Remove this line, debe provocar conlficto
-        aprobada = true;
+        //Este es el código que debe quedarse
+        aprobada = nota >= 6;
     }
 }
