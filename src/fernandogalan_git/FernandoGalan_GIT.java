@@ -16,7 +16,7 @@ public class FernandoGalan_GIT {
     public static void main(String[] args) {
        Asignatura EntornosDesarrollo = new Asignatura();
        
-       EntornosDesarrollo.calificar(5);
+       EntornosDesarrollo.calificar(10);
        
         System.out.println("Entornos de desarrollo está: " +
                 (EntornosDesarrollo.isAprobada()?"Aprobado":"Suspenso"));
