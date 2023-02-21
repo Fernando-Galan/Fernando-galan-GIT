@@ -17,6 +17,6 @@ public class Asignatura {
     }
 
     public void calificar(float nota){
-        aprobada = nota >= 6;
+        aprobada = nota >= 5;
     }
 }
